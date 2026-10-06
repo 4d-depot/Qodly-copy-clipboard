@@ -2,7 +2,7 @@
   "app_id": "qodly_f5970dd47c55b96d6a2b",
   "name": "copyclipboard",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "author": {
     "name": "Qodly Team",
@@ -28,7 +28,7 @@
     "react-icons": "^4.3.1"
   },
   "devDependencies": {
-    "@module-federation/vite": "^1.2.6",
+    "@module-federation/vite": "1.2.6",
     "@qodly/cli": "^0.4.8",
     "@types/react": "^18.2.48",
     "@types/react-dom": "^18.2.18",
@@ -41,5 +41,9 @@
   },
   "@qodly/cli": {
     "version": "21.0"
+  },
+  "allowScripts": {
+    "esbuild@0.21.5": true,
+    "esbuild@0.25.12": true
   }
 }
