@@ -1,26 +1,23 @@
-# Qodly Copy Clipboard
+# Overview
 
-A custom component for Qodly Studio that copies the value of a bound string Qodly Source to the clipboard when clicked.
+The CopyClipBoard button is a component designed to facilitate copying text to the clipboard with a simple click.
 
-## Install in Qodly Studio
+It serves as a simple and essential tool for enabling users to copy text displayed on a page to the local clipboard (the clipboard of the machine where the click occurs).
 
-Download the `qodly_copyclipboard_V0.1.1.zip` asset from the [latest release](https://github.com/4d-depot/Qodly-copy-clipboard/releases/latest). In the Qodly Studio component palette, use **Upload Component**, select the ZIP, click **Install Component**, then reload Studio. The component appears as **CopyClipBoard** under Custom Components.
 
-Bind a string Qodly Source to the component. The copy action is available by click or keyboard (Enter or Space). The settings let you choose between **Copy**, **Outline copy**, and **Copy all**, and select an icon color. The **On Click** event is also available.
+## CopyClipBoard component
 
-## Develop
+![download](https://github.com/b-fadwa/Qodly-file-download/blob/main/public/download.png)
 
-This project targets Qodly Studio / 4D 21. Install Node.js and npm, then run:
+### Properties
 
-```bash
-npm ci
-npm run dev
-```
+| Name          | Type   | Default       | Description                                                                                                                                           |
+| ------------- | ------ | ------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| Icon          | string | Copy           | This is the appearance of the copy icon to select from a three-value drop-down list (Copy, Outline copy, Copy all).                                                                             |
+| Icon color    | string | Empty          | This property sets the color of the copy icon (RGB code). |     
 
-Open the local URL shown by Vite to preview the component. To build an installable archive:
+### Datasource
 
-```bash
-npm run build
-```
-
-The build creates `qodly_f5970dd47c55b96d6a2b.zip` at the project root. The Module Federation Vite plugin is pinned to `1.2.6` for compatibility with Qodly Studio's custom-component loader.
+| Name       | Type   | Required | Description                                                                                                   |
+| ---------- | ------ | -------- | ------------------------------------------------------------------------------------------------------------- |
+| Datasource | string | Yes      | Will contain the Qodly source to copy to the clipboard when the onClick event fires.                          |
