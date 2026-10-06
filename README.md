@@ -7,7 +7,7 @@ It serves as a simple and essential tool for enabling users to copy text display
 
 ## CopyClipBoard component
 
-![download](https://github.com/b-fadwa/Qodly-copy-clipboard/blob/main/public/CopyClipBoard.png)
+![download](https://github.com/4d-depot/Qodly-copy-clipboard/blob/main/public/CopyClipBoard.png)
 
 ### Properties
 
