@@ -13,7 +13,7 @@ export const clipboardIcons = {
 
 export default {
   craft: {
-    displayName: 'CopyClipboard',
+    displayName: 'CopyClipBoard',
     kind: EComponentKind.BASIC,
     props: {
       classNames: [],
@@ -32,7 +32,7 @@ export default {
   },
   info: {
     settings: CopyClipboardSettings,
-    displayName: 'CopyClipboard',
+    displayName: 'CopyClipBoard',
     exposed: true,
     icon: MdContentCopy,
     events: [

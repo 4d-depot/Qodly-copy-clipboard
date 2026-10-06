@@ -4,7 +4,7 @@ A custom component for Qodly Studio that copies the value of a bound string Qodl
 
 ## Install in Qodly Studio
 
-Download the `qodly_copyclipboard_V0.1.0.zip` asset from the [latest release](https://github.com/4d-depot/Qodly-copy-clipboard/releases/latest). In the Qodly Studio component palette, use **Upload Component**, select the ZIP, click **Install Component**, then reload Studio. The component appears as **CopyClipboard** under Custom Components.
+Download the `qodly_copyclipboard_V0.1.1.zip` asset from the [latest release](https://github.com/4d-depot/Qodly-copy-clipboard/releases/latest). In the Qodly Studio component palette, use **Upload Component**, select the ZIP, click **Install Component**, then reload Studio. The component appears as **CopyClipBoard** under Custom Components.
 
 Bind a string Qodly Source to the component. The copy action is available by click or keyboard (Enter or Space). The settings let you choose between **Copy**, **Outline copy**, and **Copy all**, and select an icon color. The **On Click** event is also available.
 
