@@ -15,11 +15,14 @@ yalc.lock
 manifest.json
 qodly_*.tgz
 qodly_*.zip
+test-results/
+playwright-report/
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
 !.vscode/settings.json
+.github/skills/
 .idea
 .DS_Store
 *.suo

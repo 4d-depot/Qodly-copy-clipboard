@@ -3,6 +3,7 @@ import cn from 'classnames';
 import { type FC, useEffect, useRef } from 'react';
 
 import { clipboardIcons, type ICopyClipboardProps } from './CopyClipboard.config';
+import { copyStringSourceValue } from './copyStringSourceValue';
 import { copyToClipboard } from './copyToClipboard';
 
 const CopyClipboard: FC<ICopyClipboardProps> = ({
@@ -41,8 +42,7 @@ const CopyClipboard: FC<ICopyClipboardProps> = ({
 
   const handleClick = () => {
     const value = valueRef.current;
-    if (!isStringSource || typeof value !== 'string' || value === '') return;
-    copyToClipboard(value);
+    copyStringSourceValue(ds?.dataType, value, copyToClipboard);
   };
 
   return (
